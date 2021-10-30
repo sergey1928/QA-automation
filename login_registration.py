@@ -1,23 +1,23 @@
-# import time
-# from selenium import webdriver
-# driver = webdriver.Chrome()
-#
-# driver.maximize_window()
-# driver.get("http://practice.automationtesting.in/")
-# driver.implicitly_wait(5)
-#
-# my_acc = driver.find_element_by_xpath("//a[@href='http://practice.automationtesting.in/my-account/']")
-# my_acc.click()
-#
-# reg_email = driver.find_element_by_id("reg_email")
-# reg_email.send_keys("reg_email@mail.com")
-#
-# reg_password = driver.find_element_by_id("reg_password")
-# reg_password.send_keys("oxymOron19@(!LBHUN")
-#
-#
-# reg_button = driver.find_element_by_xpath("//input[@name='register']")
-# reg_button.click()
+import time
+from selenium import webdriver
+driver = webdriver.Chrome()
+
+driver.maximize_window()
+driver.get("http://practice.automationtesting.in/")
+driver.implicitly_wait(5)
+
+my_acc = driver.find_element_by_xpath("//a[@href='http://practice.automationtesting.in/my-account/']")
+my_acc.click()
+
+reg_email = driver.find_element_by_id("reg_email")
+reg_email.send_keys("reg_email@mail.com")
+
+reg_password = driver.find_element_by_id("reg_password")
+reg_password.send_keys("oxymOron19@(!LBHUN")
+
+
+reg_button = driver.find_element_by_xpath("//input[@name='register']")
+reg_button.click()
 
 
 #registration
